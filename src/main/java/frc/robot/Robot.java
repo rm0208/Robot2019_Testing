@@ -20,7 +20,7 @@ public class Robot extends TimedRobot {
   public void teleopPeriodic() {
 
     serialString = serialportkUSB1.readString();
-    System.out.println(serialString); //print to console
+    System.out.println(serialString);
 
   }
 }
